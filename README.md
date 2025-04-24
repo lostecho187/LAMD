@@ -1,13 +1,13 @@
 # LAMD
 ## How to run the code
 ### Create folders
-create *data, log, results, saved_checkpoints, saved_models under* LAMD folder
-run the following command if you are using Linux:
+Create *data, log, results, saved_checkpoints, saved_models under* LAMD folder.
+Run the following command if you are using Linux:
 
     mkdir data, log, results, saved_checkpoints, saved_models
 
 ### Preprocess the data
-paste auth dataset in *data* folder, then run:
+Paste auth dataset in *data* folder, then run:
 
     python utils/preprocess_data.py --data auth
 
@@ -15,7 +15,8 @@ paste auth dataset in *data* folder, then run:
 
     python train_self_supervised.py --data auth
 
-check the results in *log, results, saved_checkpoints, saved_models under* 
+Check the results in *log, results, saved_checkpoints, saved_models under* 
 
 ## Experimental data and results
 
+Check (https://github.com/lostecho187/Experiments)
