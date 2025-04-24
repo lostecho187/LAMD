@@ -16,3 +16,6 @@ paste auth dataset in *data* folder, then run:
     python train_self_supervised.py --data auth
 
 check the results in *log, results, saved_checkpoints, saved_models under* 
+
+## Experimental data and results
+
